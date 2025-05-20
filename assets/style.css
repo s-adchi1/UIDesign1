@@ -1,3 +1,5 @@
+@import url(https://db.onlinewebfonts.com/c/05289e866fe7e1e99d27a7a31f8d3b66?family=Trattatello);
+
 * {
 	margin:  0px;
 	padding:  0px;
@@ -5,17 +7,39 @@
 }
 
 /* adjusting fonts */
+.dropcap {
+	font-size: 48px;
+	font-family: 'fantasy', Trattatello;
+}
+
+h1 {
+	color: aliceblue; 
+	font-size: 24px;
+}
 
 body {
-	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
+	background-color: #342e53;
+	color:lightblue; 
+	font-family: 'Times New Roman', Times, serif;
 	transition: background 500ms ease;
 }
 
 p, li {
-	font-size:  22px;
+	font-size:  16px;
 	line-height: 30px;
 }
 
+a {
+	color:slateblue;
+}
+
+a:hover {
+	color:dodgerblue
+}
+
+a:click {
+	color:indigo
+}
 /* adjusting spacing */
 
 #left-column {
