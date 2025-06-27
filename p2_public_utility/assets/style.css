@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Ownglyph;
+    src: url("./fonts/온글잎 박다현체.ttf");
+}
+
+h1 {
+    font-family: Ownglyph;
+    color: 47465D;
+}
+
+body {
+    background-color: BFD5D9;
+    padding: 24px;
+    font-family: Ownglyph;
+    font-size: 18px;
+    height: 400px;
+    text-align: center;
+}
+
+li {
+    float: left;
+}
+
+ul {
+    position: relative;
+    top: 0;
+    font-size: 20px;
+    font-family: Ownglyph;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+    background-color: FFEC70;
+}
+
+.current-page {
+    background-color: BFD5D9;
+}
+
+li a:active {
+    background-color: C1CC91;
+}
+
+li a:hover {
+    background-color: FBF8B1;
+}
+
+li a, li a:visited {
+    color: 47465D;
+    text-align: center;
+    display: block;
+    padding: 16px;
+    text-decoration: none;
+}
+
+html {
+    z-index: -3;
+}
+
+a {
+    color: #60935D;
+}
+
+a:visited {
+    color: #4a6152;
+}
+
+header {
+    z-index: 10;
+    position: relative;
+    top: 0;
+    text-align: center;
+
+}
+
+.image {
+    margin-right:auto;
+    margin-left:auto;
+    height:400px;
+    display:block;
+}
+
+nav-bar {
+    z-index: 100000;
+    position: absolute;
+    top: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: column;
+}
+
+map-view {
+    overflow: clip;
+    height: 450px;
+    position: relative;
+}
